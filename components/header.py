@@ -10,7 +10,7 @@ def get_logo():
     logo = html.Div([
 
         html.Div([
-            html.Img(src='/assets/DetCat.png', id='logo', height='120', width='100')
+            html.Img(src='/assets/SynODC.png', id='logo', height='120', width='100')
         ], style={
                     'width': '15%',
                     'display': 'inline-block',
@@ -18,7 +18,7 @@ def get_logo():
 
                 }, className="w3-bar-item w3-button w3-white"),
         html.Div([
-            html.H1('DetCat: Detecting Categorical Outliers in Relational Datasets'),
+            html.H1('SynODC: Utilizing the Syntactic Structure for Outlier Detection in Categorical Attributes'),
             # html.H1('through Pattern Functional Dependencies')
         ])
 
